@@ -16,7 +16,7 @@ class CountPeople extends Component{
     updateExit=()=>{
         this.setState({
             exitcount:this.state.exitcount+1,
-            c:this.state.c++
+            c:this.state.c--
         });
     }
     render(){
